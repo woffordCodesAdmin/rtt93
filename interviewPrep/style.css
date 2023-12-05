@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    color:lemonchiffon;
+}
+.interviewContainer{
+    border:solid blue;
+    
+    border-radius: 22px;
+    text-align:center;
+    padding:22px;
+    width:50%;
+}
+.presser{
+    border:solid white;
+    text-align: center;
+    border-radius:22px;
+    margin:1em;
+    width:15%;
+
+}
+.presser:hover{
+    border:solid red;
+    text-align: center;
+    border-radius:22px;
+    margin:1em;
+    width:15%;
+}
+.studentRando{
+    border:solid green;
+    width:30%;
+    text-align:center;
+    padding:22px;
+    border-radius:33px;
+}
+.flexer{
+    display:flex;
+    justify-content: space-between;
+}
+.options{
+    display:flex;
+    margin:1.5em;
+}
+.helper1,.helper2,.helper3,.helper4{
+    border:solid peru;
+    text-align:center;
+    border-radius:22px;
+    width:40%;
+    margin:1em;
+}
+.ngneer{
+    border:double lightblue;
+    border-width:9px;
+    margin:2em;
+    height:250px;
+    width:250px;
+    border-radius:50%;
+}

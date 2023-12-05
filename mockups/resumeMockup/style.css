@@ -1,0 +1,159 @@
+.navbar{
+    background-color:grey;
+    height:22vh;
+    padding-top:10px;
+    color:white;
+
+}
+.introContainer{
+    border:solid black;
+    border-width:.2px;
+    margin:25px;
+    display:flex;
+    justify-content: space-evenly;
+    padding:14px;
+}
+.skillsContainer{
+    border:solid black;
+    border-width:.2px;
+    padding:1em;
+    /* height:22vh; */
+    margin:25px;
+    display:flex;
+    justify-content: space-evenly;
+    padding:4px;
+}
+.xpContainer{
+    height:22vh;
+    margin:25px;
+    display:flex;
+}
+.profileContainer, .imgContainer, .contactContainer{
+    /* border:solid lightblue; */
+    width:33%;
+}
+.eduContainer, .assetContainer, .industryContainer{
+    /* border:solid orange; */
+    width:33%;
+}
+.left{
+    border:solid black;
+    width:70%;
+    padding:1em;
+}
+.right{
+    border:solid black;
+    background-color: grey;
+    color:white;
+    width:30%;
+}
+.nameBox{
+    border:solid black;
+   height:150px;
+   width:80%;
+   margin-left:8%;
+   margin-top:30px;
+}
+
+.innerBox{
+    border:solid grey;
+    height:120px;
+    width:90%;
+    margin-left:4%;
+    margin-top:10px;
+}
+.fullname, .jobtitle{
+    text-align:center;
+}
+.pro{
+    text-align:center;
+}
+.data{
+    font-size:12px;
+    text-align:center;
+}
+.me{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    border:solid black;
+    border-width:.2px;
+    margin-left:15px;
+    margin-top:15px;
+}
+.row{
+    border:solid grey;
+    border-width:.2px;
+   display:flex;
+}
+.textr{
+   text-align:center;
+   font-size:10px;
+   width:80%;     
+}
+.icon{
+    border:solid black;
+    border-width:.2px;
+    border-radius:50%;
+    height:20px;
+    width:20px;
+}
+.kontainer{
+    /* border:solid black; */
+    border-width:.2px;
+    padding:5px;
+    
+}
+#top{
+    text-align:center;
+    border:double black;
+    border-width:8px;
+}
+.stat, .stt{
+    text-align:center;
+}
+.mainOne{
+    border:solid black;
+    background-color:pink;
+    height:32px;
+    margin:1em;
+    text-align:center;
+    font-size:22px;
+    width:155px;
+}
+.midOne{
+    border:solid grey;
+    padding:15px;
+    margin:1em;
+    height:250px;
+    margin-left:35px;
+}
+.group{
+    margin-bottom:30%;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.barr{
+    height:10px;
+    width:40%;
+    border:solid green;
+    display:flex;
+}
+.meter{
+    font-size:12px;
+    text-align:center;
+}
+.fake{
+    border:solid black;
+    width:20%;
+    background-color:black;
+}
+#filler{
+    background-color:white;
+}
+.rando{
+    text-align:center;
+    margin:1em;
+    margin-top:15%;
+}

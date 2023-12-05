@@ -1,0 +1,33 @@
+/* CSS file */
+/* ---theLooks */
+/* The vvisualization  */
+/* Drapes--Carpet--Paint  */
+
+
+.navContainer{
+    border: solid black;
+    background-color:lightgray;
+    height:45px;
+}
+.titleContainer{
+    border:solid green;
+}
+.picture{
+    border:solid orange;
+    height: 290px;
+    width:490px;
+}
+.buttonContainer{
+    border:solid red;
+    height:65px;
+}
+.boxContainer{
+    border:solid peru;
+    height:75px;
+}
+
+.section{
+    border:solid purple;
+    margin:1em;
+    display:flex;
+}

@@ -1,0 +1,112 @@
+@media (max-width: 2180px) {
+  body {
+    background-color: navy;
+    color:lemonchiffon;
+  }
+  .navbar{
+    border:solid lemonchiffon;
+    height:43px;
+    display:flex;
+    justify-content:space-between;
+  }
+  #hidden{
+    display:block;
+  }
+  .logoContainer{
+    display:flex;
+    justify-content: space-around;
+    border:solid grey;
+    width:43%;
+  }
+  .mainPic{
+    width:33%; 
+   }
+   .profile{
+    border:solid red;
+    display:block;
+    width:33%;
+  
+}
+/* ----------------------------------Desktop */
+
+@media (max-width: 1480px) {
+    body {
+      background-color: lightblue;
+      color:peru;
+    }
+    .navbar{
+        border:solid peru;
+        height:43px;
+        display:flex;
+        justify-content:space-evenly;
+    } #hidden{
+        display:block;
+      }
+      .logoContainer{
+        display:flex;
+        justify-content: space-around;
+        border:solid grey;
+        width:43%;
+      }
+      .mainPic{
+        width:50%; 
+       }
+       .profile{
+        border:solid red;
+        display:block;
+        width:25%;
+      }
+     
+  }
+  /* ----------------------------------Mid{Ipad} */
+
+  @media (max-width: 880px) {
+    body {
+      background-color: black;
+      color:white;
+    }
+    .navbar{
+        border:solid white;
+        height:43px;
+        display:flex;
+        justify-content:space-evenly;
+    }
+    #hidden{
+        display:none;
+      }
+      .logoContainer{
+        display:none;
+        border:solid grey;
+        width:33%;
+      }
+      .mainPic{
+        width:100%; 
+       }
+       .profile{
+        border:solid red;
+        display:none;
+        width:0;
+      }
+     
+  }
+  /* ------------------------------------Mobile */
+
+
+  /* --------------[General] */
+
+ 
+  .signup{
+    border:solid grey;
+    border-width:.2px;
+    border-radius:22px;
+    text-align:center;
+    width:150px;
+  }
+  .logo{
+    height:100%;
+  }
+  .mid{
+    border:solid purple;
+    display:flex;
+    justify-content: space-evenly;
+  }

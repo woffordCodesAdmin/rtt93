@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="flexer">
+      <div class="presser" onclick="startRound()">Click Me !</div>
+      <div class="presser" onclick="shuffleQuestion()">Shuffle</div>
+    </div>
+    
+    <img src="https://blog.imarticus.org/wp-content/uploads/2021/12/bwgg.gif" onclick="studentPoints()"alt="" class="ngneer">
+    <div class="flexer">
+      <div class="studentRando"></div>
+      <div class="interviewContainer"></div>
+    </div>
+
+    <div class="options">
+      <div class="helper1" onclick="disappear('1')">50/50</div>
+      <div class="helper2" onclick="disappear('2')">Instructor Hint</div>
+      <div class="helper3" onclick="disappear('3')">Ask The Audience</div>
+      <div class="helper4" onclick="disappear('4')">Shuffle Question</div>
+    </div>
+    <script src="app.js" async defer></script>
+  </body>
+</html>

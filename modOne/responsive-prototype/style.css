@@ -1,0 +1,115 @@
+@keyframes jogging {
+  0% {
+    /* initialCommand */
+    transform: translateX(-450px);
+  }
+
+  50%{
+  }
+
+  100% {
+    /* finalCommand */
+    transform: translateX(110vw);
+  }
+}
+@keyframes makeBall {
+    0% {
+      /* initialCommand */
+      border:solid blue;
+    }
+  
+    50%{
+        border-radius:50%
+    }
+  
+    100% {
+      /* finalCommand */
+border-radius:50%;
+    }
+  }
+/* --------- */
+body {
+  height: 1220em;
+}
+.box {
+  border: solid blue;
+  height: 120px;
+  width: 120px;
+}
+
+.circle {
+  border: solid red;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+
+.bio {
+  border: solid purple;
+  height: 32vh;
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+  color: green;
+}
+.jordan {
+  display: flex;
+}
+.j23 {
+  width: 50%;
+}
+.disappear {
+  display: none;
+}
+.bubble {
+  height: 200px;
+  width: 200px;
+  border: solid grey;
+  border-radius: 50%;
+}
+.wood {
+  width: 100%;
+  height: 100%;
+}
+.flame {
+  background-image: url("https://media.tenor.com/AaPeZRxwOuQAAAAM/fire-flames.gif");
+}
+.rain {
+  background-image: url("https://media.tenor.com/6Andtbkh8cwAAAAC/rain-transparent.gif");
+}
+.partaay {
+  background-image: url("https://media.tenor.com/U4a0N9wXvL8AAAAd/beyonce-single-ladies.gif");
+}
+
+.dancer {
+  margin-left: 30%;
+}
+.mario {
+  /* border:solid red; */
+  padding: 3em;
+  display: flex;
+}
+.plumber {
+  height: 120px;
+}
+.firework {
+  background-image: url("https://media.tenor.com/NXvU9jbBUGMAAAAC/fireworks.gif");
+}
+.color {
+  background-color: lemonchiffon;
+}
+.runner {
+  height: 140px;
+}
+
+.running {
+  animation: jogging 3s ease-in-out infinite;
+}
+
+.sphere{
+    height:90px;
+    margin:2em;
+    width:90px;
+    border:solid green;
+    animation: makeBall 3s ease-out infinite
+}

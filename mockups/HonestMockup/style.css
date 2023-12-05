@@ -1,0 +1,32 @@
+.scrollbar{
+    border:solid salmon;
+    background-color:salmon;
+    height:42px;
+    padding-top:22px;
+    display:flex;
+    justify-content: space-around;
+    color:black;
+}
+.arrow{
+    /* border:solid purple; */
+    height:20px;
+}
+.navbar{
+    /* border:solid black; */
+    margin-top:18px;
+    height:25px;
+    display:flex;
+    justify-content: space-between;
+}
+.icon,.logo,.login{
+    /* border:solid black; */
+    width:25%;
+    border-width:.2px;
+}
+.optionsContainer{
+    display:flex;
+    justify-content: space-around;
+}
+.options{
+
+}

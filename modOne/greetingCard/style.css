@@ -1,0 +1,43 @@
+.cardContainer{
+    border:solid pink;
+    border-width:8px;
+    background-color:lightblue;
+    height:450px;
+    margin:3em;
+    width:400px;
+    color:purple;
+}
+.topTitle,.bottomTxt{
+    font-family:serif;
+    margin:1em;
+    text-align:center;
+    font-size:32px;
+    margin-top:1em;
+}
+.mainImage{
+    height:200px;
+    width:200px;
+    border:solid yellow;
+    border-radius:50%;
+    margin-left:6em;
+}
+.arrow{
+    border:solid pink;
+    background-color:lightblue;
+    font-size:22px;
+    padding-left:18px;
+    padding-right:18px;
+    border-radius:22px;
+    margin-left:60%;
+    color:lemonchiffon;
+}
+.arrow:hover{
+    border:solid pink;
+    background-color:blue;
+    font-size:22px;
+    padding-left:18px;
+    padding-right:18px;
+    border-radius:22px;
+    margin-left:60%;
+    color:white;
+}
